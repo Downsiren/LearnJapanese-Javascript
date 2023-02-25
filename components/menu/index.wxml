@@ -1,0 +1,7 @@
+<!--components/menu/index.wxml-->
+<view class="drawer_screen" bindtap="showOrHide" wx:if="{{isShow}}" catchtouchmove="myCatchTouch"></view>
+<view >
+  <image src="../../images/search2.png" class="buttom" animation="{{animDelLots}}" bindtap="deleteLots"></image>
+  <image src="../../images/pencil2.png" class="buttom" animation="{{animAdd}}" bindtap="add"></image>
+  <image src="../../images/tj2.png" class="buttom" animation="{{animMain}}" bindtap="showOrHide"></image>
+</view>

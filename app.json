@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/jlq/jlq",
+    "pages/jlq/dt/dt",
+    "pages/jlq/dtDetail/dtDetail",
+    "pages/sjfx/sjfx",
+    "pages/gw/gw",
+    "pages/us/us",
+    "pages/kt/kt",
+    "pages/kt/ktxz/ktxz",
+    "pages/kt/detail/detail",
+    "pages/sp/sp",
+    "pages/sp/wssp/wssp",
+    "pages/sp/wsspdetails/wsspdetails",
+    "pages/sp/wsspdetails/video_pl_xq/video_pl_xq",
+    "pages/tl/tl",
+    "pages/tl/detail/detail",
+    "pages/zxlx/zxlx",
+    "pages/zxlx/word/level/level",
+    "pages/zxlx/word/classify/classify",
+    "pages/zxlx/word/detail/detail",
+    "pages/zxlx/word/learn/learn",
+    "pages/zxlx/word/result/result",
+    "pages/zxlx/grammar/level/level",
+    "pages/zxlx/grammar/classify/classify",
+    "pages/zxlx/grammar/detail/detail",
+    "pages/zxlx/grammar/learn/learn",
+    "pages/zxlx/read/level/level",
+    "pages/zxlx/read/classify/classify",
+    "pages/zxlx/read/detail/detail",
+    "pages/zs/zs",
+    "pages/zs/detail/detail",
+    "pages/us/gg/gg",
+    "pages/us/collect/collect",
+    "pages/us/ct/ct",
+    "pages/us/bought/bought",
+    "pages/us/about/about",
+    "pages/us/order/order",
+    "pages/us/gg/detail/detail",
+    "components/popup/popup",
+    "pages/zs/reply/reply",
+    "pages/jlq/reply/reply"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#58ACFA",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/sy.png",
+        "iconPath": "images/sy2.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/jl.png",
+        "iconPath": "images/jl2.png",
+        "pagePath": "pages/jlq/jlq",
+        "text": "日语圈"
+      },
+      {
+        "selectedIconPath": "images/sjfx_selected.png",
+        "iconPath": "images/sjfx.png",
+        "pagePath": "pages/sjfx/sjfx",
+        "text": "统计"
+      },
+      {
+        "selectedIconPath": "images/wd.png",
+        "iconPath": "images/wd2.png",
+        "pagePath": "pages/us/us",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

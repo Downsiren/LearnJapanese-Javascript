@@ -1,0 +1,19 @@
+app.json:
+/*{
+        "selectedIconPath": "images/gw.png",
+        "iconPath": "images/gw2.png",
+        "pagePath": "pages/gw/gw",
+        "text": "�鼮��"
+      },*/
+
+dist1-cell collaspe-item.wxml:
+<van-icon
+    wx:if="{{ icon }}"
+    name="{{ icon }}"
+    class="van-cell__left-icon-wrap"
+    custom-class="van-cell__left-icon"
+    color="{{color}}"
+  />
+
+  dist1-cell.js:
+  color: String
